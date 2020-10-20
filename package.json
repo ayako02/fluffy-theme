@@ -3,7 +3,7 @@
   "displayName": "Fluffy Theme",
   "publisher": "AyakoSky",
   "description": "A fluffy and girly light theme based on Morandi colours. ",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -14,6 +14,13 @@
     "name": "AyakoSky",
     "email": "ayakosky@gmail.com",
     "url": "https://github.com/ayako02"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayako02/fluffy-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/ayako02/fluffy-theme/issues"
   },
   "keywords": [
     "theme",
