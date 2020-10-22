@@ -1,5 +1,7 @@
 # Fluffy Theme
 
+![Preview](https://github.com/ayako02/fluffy-theme/blob/main/sample.png)
+
 A fluffy and girly light colour theme that created based on Morandi & Macaroon colours.
 
 Is it advisabled to lower down your screen brightness in order to protect your eyeside when you're using this theme. It definitely looks much more comfortable in dimmer screen.
