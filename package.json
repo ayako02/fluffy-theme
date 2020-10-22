@@ -2,7 +2,7 @@
   "name": "fluffy-theme",
   "displayName": "Fluffy Theme",
   "publisher": "AyakoSky",
-  "icon": "logo.jpeg",
+  "icon": "assets/logo.jpeg",
   "description": "A fluffy and girly light theme based on Morandi colours. ",
   "version": "0.0.5",
   "engines": {
