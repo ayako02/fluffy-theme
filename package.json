@@ -2,13 +2,15 @@
   "name": "fluffy-theme",
   "displayName": "Fluffy Theme",
   "publisher": "AyakoSky",
+  "icon": "./logo.jpeg",
   "description": "A fluffy and girly light theme based on Morandi colours. ",
   "version": "0.0.3",
   "engines": {
     "vscode": "^1.50.0"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Others"
   ],
   "auth": {
     "name": "AyakoSky",
@@ -24,13 +26,18 @@
   },
   "keywords": [
     "theme",
+    "white",
     "pink",
     "cute",
     "light",
     "kawaii",
     "macaroon",
     "morandi",
-    "colourful"
+    "colourful",
+    "unicorn",
+    "blue",
+    "purple",
+    "fluffy"
   ],
   "contributes": {
     "themes": [
