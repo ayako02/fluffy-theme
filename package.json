@@ -44,7 +44,7 @@
       {
         "label": "Fluffy Theme",
         "uiTheme": "vs",
-        "path": "./themes/fluffy-theme-color-theme.json"
+        "path": "./themes/fluffy-color-theme.json"
       }
     ]
   }
