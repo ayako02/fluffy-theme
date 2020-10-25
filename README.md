@@ -1,6 +1,6 @@
 # Fluffy Theme
 
-![Logo](https://github.com/ayako02/fluffy-theme/blob/main/assets/logo.jpeg?raw=true)
+![Logo](https://github.com/ayako02/fluffy-theme/blob/main/assets/fluffy-cover.jpg?raw=true)
 
 ### Preview 买家秀
 
