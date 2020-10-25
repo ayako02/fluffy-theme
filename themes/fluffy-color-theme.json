@@ -45,10 +45,10 @@
     "scrollbarSlider.hoverBackground": "#DEF7EF",
 
     "dropdown.border": "#888CCC",
-    "dropdown.foreground": "#888CCC",
+    "dropdown.foreground": "#fff",
 
-    "list.errorForeground": "#318B8C",
-    "list.warningForeground": "#CF426F",
+    "list.errorForeground": "#CF426F",
+    "list.warningForeground": "#318B8C",
     "list.dropBackground": "#EFE8F0",
     "list.hoverBackground": "#EFE8F0",
     "list.hoverForeground": "#888CCC",
@@ -60,6 +60,14 @@
     "list.filterMatchBackground": "#EFE8F0",
     "listFilterWidget.background": "#EFE8F0",
 
+    "gitDecoration.addedResourceForeground": "#318B8C",
+    "gitDecoration.modifiedResourceForeground": "#888CCC",
+    "gitDecoration.untrackedResourceForeground": "#C8ECE0",
+    "gitDecoration.deletedResourceForeground": "#CF426F",
+    "gitDecoration.ignoredResourceForeground": "#AAAAAA",
+    "gitDecoration.submoduleResourceForeground": "#DB81CC",
+    "gitDecoration.conflictingResourceForeground": "#ffb341",
+
     "activityBar.background": "#FF9EB5",
     "activityBar.foreground": "#FFF",
     "activityBarBadge.background": "#888CCC",
@@ -70,6 +78,8 @@
     "sideBarSectionHeader.background": "#DEF7EF",
 
     "statusBar.background": "#888CCC",
+    "statusBar.noFolderBackground": "#888CCC",
+    "statusBar.debuggingBackground": "#318B8C",
     "statusBarItem.activeBackground": "#FF9EB5",
 
     "panelTitle.activeForeground": "#888CCC",
@@ -87,7 +97,7 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#AAAAAA" //ADBEEF
+        "foreground": "#AAAAAA"
       }
     },
     {
@@ -116,35 +126,35 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#CF9FD3" // CF9FD3
+        "foreground": "#CF9FD3"
       }
     },
     {
       "name": "Keywords",
       "scope": ["keyword", "storage"],
       "settings": {
-        "foreground": "#DB81CC" // DB81CC
+        "foreground": "#DB81CC"
       }
     },
     {
       "name": "Types",
       "scope": ["storage.type", "support.type"],
       "settings": {
-        "foreground": "#DB81CC" // DB81CC
+        "foreground": "#DB81CC"
       }
     },
     {
       "name": "Language Constants",
       "scope": ["constant.language", "support.constant", "variable.language"],
       "settings": {
-        "foreground": "#ABC8CC" // 318B8C
+        "foreground": "#ABC8CC"
       }
     },
     {
       "name": "Variables",
       "scope": ["variable", "support.variable"],
       "settings": {
-        "foreground": "#FF9EB5" // FF88AC
+        "foreground": "#FF9EB5"
       }
     },
     {
@@ -152,7 +162,7 @@
       "scope": ["entity.name.function", "support.function"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#9DDBD6" // 9DDBD6
+        "foreground": "#9DDBD6"
       }
     },
     {
@@ -164,7 +174,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#FF79AD" // FF79AD
+        "foreground": "#FF79AD"
       }
     },
     {
@@ -185,14 +195,14 @@
       "name": "Numbers, Characters",
       "scope": ["constant.numeric", "constant.character", "constant"],
       "settings": {
-        "foreground": "#6CA7CE" //6CA7CE
+        "foreground": "#6CA7CE"
       }
     },
     {
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "foreground": "#888CCC" // 888CCC
+        "foreground": "#888CCC"
       }
     },
     {
@@ -206,21 +216,21 @@
       "name": "Strings: Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#4B83CD" // 4NB3CD
+        "foreground": "#4B83CD"
       }
     },
     {
       "name": "Strings: Symbols",
       "scope": "constant.other.symbol",
       "settings": {
-        "foreground": "#AB6526"
+        "foreground": "#4B83CD"
       }
     },
     {
       "name": "Punctuation",
       "scope": "punctuation",
       "settings": {
-        "foreground": "#C8C7D7" // C8C7D7
+        "foreground": "#C8C7D7"
       }
     },
     {
@@ -281,14 +291,14 @@
         "entity.name.tag.css"
       ],
       "settings": {
-        "foreground": "#DB81CC" // DB81CC
+        "foreground": "#DB81CC"
       }
     },
     {
       "name": "CSS: Property Names",
       "scope": ["meta.property-name", "support.type.property-name"],
       "settings": {
-        "foreground": "#FF88AC" // FF88AC
+        "foreground": "#FF88AC"
       }
     },
     {
@@ -299,7 +309,7 @@
         "support.constant.property-value"
       ],
       "settings": {
-        "foreground": "#DB81CC" // DB881CC
+        "foreground": "#DB81CC"
       }
     },
     {
