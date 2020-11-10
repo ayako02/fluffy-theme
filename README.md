@@ -2,7 +2,7 @@
 
 ![Logo](https://github.com/ayako02/fluffy-theme/blob/main/assets/fluffy-cover.jpg?raw=true)
 
-### Preview 买家秀
+### Preview 卖家秀
 
 ![Preview](https://github.com/ayako02/fluffy-theme/blob/main/assets/sample.png?raw=true)
 

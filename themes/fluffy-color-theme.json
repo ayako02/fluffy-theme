@@ -24,15 +24,17 @@
     "editorGroupHeader.tabsBackground": "#EFE8F0",
 
     "extensionButton.prominentForeground": "#FFFFFF",
-    "extensionButton.prominentBackground": "#CF426F",
+    "extensionButton.prominentBackground": "#FF9EB5",
 
     "input.border": "#FF9EB5",
     "input.foreground": "#888CCC",
     "input.placeholderForeground": "#AAAAAA",
 
+    // Badge in icon sidebar
     "badge.background": "#EFE8F0",
     "badge.foreground": "#6f73b1",
 
+    // Opened file navigation tab
     "tab.activeBackground": "#FF9EB5",
     "tab.activeForeground": "#FFF",
     "tab.inactiveBackground": "#DEF7EF",
@@ -40,13 +42,16 @@
 
     "button.background": "#FF9EB5",
 
+    // Editor's scrollbar
     "scrollbarSlider.background": "#EFE8F0",
     "scrollbarSlider.activeBackground": "#FF9EB5",
     "scrollbarSlider.hoverBackground": "#DEF7EF",
 
+    // Select field
     "dropdown.border": "#888CCC",
-    "dropdown.foreground": "#fff",
+    "dropdown.foreground": "#888CCC",
 
+    // Project listing
     "list.errorForeground": "#CF426F",
     "list.warningForeground": "#318B8C",
     "list.dropBackground": "#EFE8F0",
@@ -56,38 +61,63 @@
     "list.inactiveSelectionForeground": "#CF9FD3",
     "list.activeSelectionBackground": "#FFDFE6",
     "list.activeSelectionForeground": "#318B8C",
-
     "list.filterMatchBackground": "#EFE8F0",
     "listFilterWidget.background": "#EFE8F0",
 
+    // Git changes
     "gitDecoration.addedResourceForeground": "#318B8C",
     "gitDecoration.modifiedResourceForeground": "#888CCC",
-    "gitDecoration.untrackedResourceForeground": "#C8ECE0",
+    "gitDecoration.untrackedResourceForeground": "#78b1fc",
     "gitDecoration.deletedResourceForeground": "#CF426F",
     "gitDecoration.ignoredResourceForeground": "#AAAAAA",
     "gitDecoration.submoduleResourceForeground": "#DB81CC",
     "gitDecoration.conflictingResourceForeground": "#ffb341",
 
+    // Icon sidebar
     "activityBar.background": "#FF9EB5",
     "activityBar.foreground": "#FFF",
     "activityBarBadge.background": "#888CCC",
 
+    // Project listing bar
+    "sideBar.border": "#EFE8F0",
     "sideBar.background": "#FFF",
     "sideBar.foreground": "#FF9EB5",
     "sideBarSectionHeader.border": "#FF9EB5",
     "sideBarSectionHeader.background": "#DEF7EF",
 
+    // Editor's bottom bar
     "statusBar.background": "#888CCC",
     "statusBar.noFolderBackground": "#888CCC",
     "statusBar.debuggingBackground": "#318B8C",
     "statusBarItem.activeBackground": "#FF9EB5",
 
+    // Terminal header bar
+    "panel.border": "#FF9EB5",
     "panelTitle.activeForeground": "#888CCC",
     "panelTitle.inactiveForeground": "#FF9EB5",
 
+    // Terminal
     "terminal.foreground": "#FF9EB5",
+    "terminal.selectionBackground": "#d8d8d8",
     "terminalCursor.foreground": "#FF9EB5",
+    "terminal.ansiBlack": "#333",
+    "terminal.ansiBrightBlack": "#444343",
+    "terminal.ansiBlue": "#4B83CD",
+    "terminal.ansiBrightBlue": "#78b1fc",
+    "terminal.ansiGreen": "#318B8C",
+    "terminal.ansiBrightGreen": "#58bbbd",
+    "terminal.ansiCyan": "#9DDBD6",
+    "terminal.ansiBrightCyan": "#b2e6e1",
+    "terminal.ansiRed": "#CF426F",
+    "terminal.ansiBrightRed": "#e27b7b",
+    "terminal.ansiMagenta": "#888CCC",
+    "terminal.ansiBrightMagenta": "#DB81CC",
+    "terminal.ansiYellow": "#ffd686",
+    "terminal.ansiBrightYellow": "#f3d36b",
+    "terminal.ansiWhite": "#72696f",
+    "terminal.ansiBrightWhite": "#978c94",
 
+    // Editor's top bar
     "titleBar.activeBackground": "#888CCC",
     "titleBar.activeForeground": "#FFF"
   },
@@ -317,6 +347,87 @@
       "scope": "keyword.other.important",
       "settings": {
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#FF9EB5"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#DB81CC"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#888CCC"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#318B8C"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#9DDBD6"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#78b1fc"
+      }
+    },
+    {
+      "name": "JSON Key - Level 6",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#FF9EB5"
+      }
+    },
+    {
+      "name": "JSON Key - Level 7",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#DB81CC"
+      }
+    },
+    {
+      "name": "JSON Key - Level 8",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#888CCC"
       }
     },
     {

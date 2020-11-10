@@ -2,6 +2,16 @@
 
 All notable changes to the "fluffy-theme" extension will be documented in this file.
 
+#### [V.0.0.7]
+
+- Added 8 levels of JSON syntax colour
+- Added sidebar border colour
+- Added terminal panel border
+- Added terminal syntax colours
+- Changed dropdown's foreground colour
+- Changed git untracked resources colour
+- Changed extenstionButton background colour
+
 #### [V.0.0.6]
 
 - Updated cover image in `Readme.md`.
