@@ -2,6 +2,10 @@
 
 All notable changes to the "fluffy-theme" extension will be documented in this file.
 
+#### [V.0.0.8]
+
+- Added new colour for git stage changes
+
 #### [V.0.0.7]
 
 - Added 8 levels of JSON syntax colour

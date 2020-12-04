@@ -4,7 +4,7 @@
   "publisher": "AyakoSky",
   "icon": "assets/logo.jpeg",
   "description": "A fluffy and girly light theme based on Morandi colours. ",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "engines": {
     "vscode": "^1.50.0"
   },
