@@ -163,16 +163,17 @@
     },
     {
       "name": "Keywords",
-      "scope": ["keyword", "storage"],
+      "scope": ["keyword"],
       "settings": {
         "foreground": "#DB81CC"
       }
     },
     {
-      "name": "Types",
-      "scope": ["storage.type", "support.type"],
+      "name": "Storage",
+      "scope": ["storage", "storage.modifier", "storage.type"],
       "settings": {
-        "foreground": "#DB81CC"
+        "fontStyle": "",
+        "foreground": "#EF96C5"
       }
     },
     {
@@ -190,11 +191,40 @@
       }
     },
     {
-      "name": "Functions",
-      "scope": ["entity.name.function", "support.function"],
+      "name": "Function, Special Method",
+      "scope": [
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#9DDBD6"
+      }
+    },
+
+    {
+      "name": "Function Call Variable",
+      "scope": "variable.other.property",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#91B3E0"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
       "settings": {
         "fontStyle": "bold",
         "foreground": "#9DDBD6"
+      }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#CF9FD3"
       }
     },
     {

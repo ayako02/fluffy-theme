@@ -2,6 +2,10 @@
 
 All notable changes to the "fluffy-theme" extension will be documented in this file.
 
+### [V.0.0.9]
+
+- Updated function parameter colour and font style
+
 #### [V.0.0.8]
 
 - Added new colour for git stage changes
