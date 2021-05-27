@@ -7,7 +7,7 @@
     "editor.foreground": "#FF9EB5",
     "editor.selectionBackground": "#EAECEA",
 
-    "editor.wordHighlightBackground": "#EDFCFF",
+    "editor.wordHighlightBackground": "#d9f3f8",
     "editor.wordHighlightStrongBorder": "#FF9EB5",
     "editor.wordHighlightStrongBackground": "#F7F5D8",
 
@@ -18,9 +18,11 @@
     "editorBracketMatch.border": "#888CCC",
     "editorWarning.foreground": "#FFDBA7",
     "editorError.foreground": "#ff0000",
+    "editorCursor.background": "#FF9EB5",
     "editorCursor.foreground": "#FF9EB5",
     "editorGutter.addedBackground": "#ff0000",
     "editorLineNumber.foreground": "#FF9EB5",
+    "editorLineNumber.activeForeground": "#318B8C",
     "editorGroupHeader.tabsBackground": "#EFE8F0",
 
     "extensionButton.prominentForeground": "#FFFFFF",
@@ -40,6 +42,7 @@
     "tab.inactiveBackground": "#DEF7EF",
     "tab.inactiveForeground": "#ADBEEF",
 
+    // Button
     "button.background": "#FF9EB5",
 
     // Editor's scrollbar
@@ -121,7 +124,19 @@
 
     // Editor's top bar
     "titleBar.activeBackground": "#888CCC",
-    "titleBar.activeForeground": "#FFF"
+    "titleBar.activeForeground": "#FFF",
+
+    // Editor's breadcrump
+    "breadcrumb.foreground": "#FF9EB5",
+    "breadcrumbPicker.background": "#fff",
+    "breadcrumb.focusForeground": "#CF9FD3",
+    "breadcrumb.activeSelectionForeground": "#888CCC",
+
+    // Coding Peekview
+    "peekViewEditor.matchHighlightBorder": "#FF9EB5",
+    "peekViewEditor.matchHighlightBackground": "#F7F5D8",
+    "peekViewResult.background": "#fdf8f8",
+    "peekViewResult.matchHighlightBackground": "#F7F5D8"
   },
   "tokenColors": [
     {

@@ -2,6 +2,12 @@
 
 All notable changes to the "fluffy-theme" extension will be documented in this file.
 
+### [V.0.0.10]
+
+- Added active line number colour
+- Added editor's breadcrump colours
+- Added coding peekview related colours
+
 ### [V.0.0.9]
 
 - Updated function parameter colour and font style
